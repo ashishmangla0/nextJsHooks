@@ -15,6 +15,7 @@ const handleSubmit = (e) =>{
   return (
     <>
     <Layout>
+    url{process.env.API_URL}
       <h1>
         Weather app
       </h1>
